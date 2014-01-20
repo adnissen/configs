@@ -1,0 +1,9 @@
+install htop-osx
+install git
+install hub
+install irssi
+isntall node
+install tmux
+install tor
+install tree
+install openssl
