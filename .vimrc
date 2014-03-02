@@ -20,3 +20,4 @@ set listchars=tab:>~,nbsp:_,trail:.
 set list
 set laststatus=2
 set colorcolumn=80
+set foldmethod=syntax
