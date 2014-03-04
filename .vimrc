@@ -21,3 +21,5 @@ set list
 set laststatus=2
 set colorcolumn=80
 set foldmethod=syntax
+
+:nnoremap <silent> <F5> :let _s=@/<Bar>:%s/\s\+$//e<Bar>:let @/=_s<Bar>:nohl<CR>
