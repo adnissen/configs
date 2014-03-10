@@ -7,6 +7,8 @@ Bundle 'gmarik/vundle'
 
 " bundles
 Bundle 'bling/vim-airline'
+Bundle 'scrooloose/nerdtree'
+Bundle 'jistr/vim-nerdtree-tabs'
 
 set mouse=a
 syntax enable
@@ -23,3 +25,12 @@ set colorcolumn=80
 set foldmethod=syntax
 
 :nnoremap <silent> <F5> :let _s=@/<Bar>:%s/\s\+$//e<Bar>:let @/=_s<Bar>:nohl<CR>
+
+set splitbelow
+set splitright
+
+nnoremap <C-J> <C-W><C-J>
+nnoremap <C-K> <C-W><C-K>
+nnoremap <C-L> <C-W><C-L>
+nnoremap <C-H> <C-W><C-H>
+map <Leader>n <plug>NERDTreeTabsToggle<CR>
