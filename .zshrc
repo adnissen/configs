@@ -11,6 +11,7 @@ ZSH_THEME="fox"
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias git=hub
+alias vim=mvim
 alias sha1="/usr/bin/openssl sha1"
 # Set to this to use case-sensitive completion
 # CASE_SENSITIVE="true"

@@ -7,8 +7,11 @@ Bundle 'gmarik/vundle'
 
 " bundles
 Bundle 'bling/vim-airline'
-Bundle 'scrooloose/nerdtree'
-Bundle 'jistr/vim-nerdtree-tabs'
+" Bundle 'scrooloose/nerdtree'
+" Bundle 'jistr/vim-nerdtree-tabs'
+Bundle 'tpope/vim-surround'
+
+Bundle 'topfunky/PeepOpen-EditorSupport', {'rtp': 'vim-peepopen/'}
 
 set mouse=a
 syntax enable
@@ -22,7 +25,6 @@ set listchars=tab:>~,nbsp:_,trail:.
 set list
 set laststatus=2
 set colorcolumn=80
-set foldmethod=syntax
 
 :nnoremap <silent> <F5> :let _s=@/<Bar>:%s/\s\+$//e<Bar>:let @/=_s<Bar>:nohl<CR>
 
@@ -34,3 +36,10 @@ nnoremap <C-K> <C-W><C-K>
 nnoremap <C-L> <C-W><C-L>
 nnoremap <C-H> <C-W><C-H>
 map <Leader>n <plug>NERDTreeTabsToggle<CR>
+
+colorscheme slate
+map <Leader>p <Plug>PeepOpen
+if has("gui_macvim")
+  macmenu &File.New\ Tab key=<nop>
+  map <Leader>p <Plug>PeepOpen
+end
