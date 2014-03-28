@@ -1,3 +1,3 @@
-# brewfile
+Look at all these fancy configs for vim, zsh, tmux, and homebrew. 
 
-A simple set of commands that installs everything one probably needs from homebrew on a new machine. Obviously requires homebrew.
+Please steal these and claim them as your own.
