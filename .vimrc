@@ -7,9 +7,11 @@ Bundle 'gmarik/vundle'
 
 " bundles
 Bundle 'bling/vim-airline'
-" Bundle 'scrooloose/nerdtree'
-" Bundle 'jistr/vim-nerdtree-tabs'
+Bundle 'scrooloose/nerdtree'
+Bundle 'jistr/vim-nerdtree-tabs'
 Bundle 'tpope/vim-surround'
+Bundle 'terryma/vim-multiple-cursors'
+Bundle 'valloric/YouCompleteMe'
 
 Bundle 'topfunky/PeepOpen-EditorSupport', {'rtp': 'vim-peepopen/'}
 
