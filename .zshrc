@@ -12,6 +12,7 @@ ZSH_THEME="fox"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias git=hub
 alias sha1="/usr/bin/openssl sha1"
+alias getip="curl ipecho.net/plain | pbcopy"
 # Set to this to use case-sensitive completion
 # CASE_SENSITIVE="true"
 
