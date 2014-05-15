@@ -77,3 +77,5 @@ export PATH=$PATH:/usr/sbin
 export PATH=$PATH:/bin
 export PATH=$PATH:/sbin
 export PATH=$PATH:/usr/X11/bin
+
+archey -c
