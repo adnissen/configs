@@ -79,3 +79,4 @@ export PATH=$PATH:/sbin
 export PATH=$PATH:/usr/X11/bin
 
 archey -c
+echo -n "Hi andrew, you have " && curl -L -s https://twitter.com/ambushsabre | iconv -f windows-1251 | tr -dc '[:print:]' | grep -i -o -E '[0-9]{1,100}.Followers'
