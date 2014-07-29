@@ -15,6 +15,7 @@ Plugin 'valloric/YouCompleteMe'
 Plugin 'tpope/vim-fugitive'
 
 Plugin 'topfunky/PeepOpen-EditorSupport', {'rtp': 'vim-peepopen/'}
+set runtimepath^=~/.vim/bundle/ctrlp.vim
 
 call vundle#end()
 
@@ -40,6 +41,8 @@ nnoremap <C-J> <C-W><C-J>
 nnoremap <C-K> <C-W><C-K>
 nnoremap <C-L> <C-W><C-L>
 nnoremap <C-H> <C-W><C-H>
+let g:ctrlp_map = '<c-p>'
+let g:ctrlp_cmd = 'CtrlP'
 map <Leader>n <plug>NERDTreeTabsToggle<CR>
 
 colorscheme slate

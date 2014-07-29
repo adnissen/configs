@@ -13,6 +13,9 @@ ZSH_THEME="fox"
 alias git=hub
 alias sha1="/usr/bin/openssl sha1"
 alias getip="curl ipecho.net/plain | pbcopy"
+alias vim="/usr/local/bin/vim"
+alias vi="/usr/local/bin/vim"
+alias sl="/usr/local/bin/sl"
 # Set to this to use case-sensitive completion
 # CASE_SENSITIVE="true"
 
@@ -78,5 +81,7 @@ export PATH=$PATH:/bin
 export PATH=$PATH:/sbin
 export PATH=$PATH:/usr/X11/bin
 
-archey -c
-echo -n "Hi andrew, you have " && curl -L -s https://twitter.com/ambushsabre | iconv -f windows-1251 | tr -dc '[:print:]' | grep -i -o -E '[0-9]{1,100}.Followers'
+# archey -c
+# echo -n "Hi andrew, you have " && curl -L -s https://twitter.com/ambushsabre | iconv -f windows-1251 | tr -dc '[:print:]' | grep -i -o -E '[0-9]{1,100}.Followers'
+#
+unalias sl
