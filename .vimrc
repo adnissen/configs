@@ -13,9 +13,8 @@ Plugin 'tpope/vim-surround'
 Plugin 'terryma/vim-multiple-cursors'
 Plugin 'valloric/YouCompleteMe'
 Plugin 'tpope/vim-fugitive'
-
+Plugin 'kien/ctrlp.vim'
 Plugin 'topfunky/PeepOpen-EditorSupport', {'rtp': 'vim-peepopen/'}
-set runtimepath^=~/.vim/bundle/ctrlp.vim
 
 call vundle#end()
 
