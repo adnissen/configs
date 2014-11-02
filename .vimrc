@@ -14,6 +14,7 @@ Plugin 'terryma/vim-multiple-cursors'
 Plugin 'valloric/YouCompleteMe'
 Plugin 'tpope/vim-fugitive'
 Plugin 'kien/ctrlp.vim'
+Plugin 'docunext/closetag.vim'
 Plugin 'topfunky/PeepOpen-EditorSupport', {'rtp': 'vim-peepopen/'}
 
 call vundle#end()
@@ -25,6 +26,8 @@ set expandtab
 set shiftwidth=2
 set softtabstop=2
 set number
+set incsearch
+set ignorecase
 set hlsearch
 set listchars=tab:>~,nbsp:_,trail:.
 set list
@@ -43,7 +46,8 @@ nnoremap <C-H> <C-W><C-H>
 let g:ctrlp_map = '<c-p>'
 let g:ctrlp_cmd = 'CtrlP'
 map <Leader>n <plug>NERDTreeTabsToggle<CR>
-
+nmap j gj
+nmap k gk
 colorscheme slate
 map <Leader>p <Plug>PeepOpen
 if has("gui_macvim")
